@@ -2,7 +2,7 @@
 
 ## Overview
 
-InnerSource Commons Africa is a local community within the InnerSource Commons Foundation. Our mission is to foster collaboration and promote the adoption of InnerSource practices across Africa. 🌍 This community is dedicated to nurturing a culture of openness, shared knowledge, and innovation among African organizations and developers. Whether you are a seasoned practitioner or new to InnerSource, we welcome you to join us in building a vibrant community. 🤝
+InnerSource Commons Africa is a local community within the InnerSource Commons Foundation. Our mission is to foster collaboration and promote the adoption of InnerSource practices across Africa 🌍.  This community is dedicated to nurturing a culture of openness, shared knowledge, and innovation among African organizations and developers. Whether you are a seasoned practitioner or new to InnerSource, we welcome you to join us in building a vibrant community. 🤝
 
 ## Goals
 
