@@ -32,7 +32,7 @@ If you experience or witness any inappropriate behavior, please report it to the
 
 ## Local Meetups and Events
 
-We aim to host both online and in-person events to bring the African InnerSource community together. Announcements about upcoming meetups and workshops will be shared on our social media channels and the InnerSource Commons Foundation pages (https://innersourcecommons.org/events/). 📅
+We aim to host both online and in-person events to bring the African InnerSource community together. Announcements about upcoming meetups and workshops will be shared on our social media channels and the InnerSource Commons Foundation pages (https://gatherings.innersourcecommons.org/). 📅
 
 ## Contact Us
 
