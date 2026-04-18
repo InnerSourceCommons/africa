@@ -10,10 +10,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in **InnerSource Commons Africa**.
+        Thank you for your interest in **InnerSource Commons Africa** 🎉
 
         This form helps you tell us how you would like to contribute to the community.
-        Once submitted, a maintainer will follow up with you on the next steps.
+        Once submitted, a maintainer will follow up with you on next steps.
 
   - type: dropdown
     id: contribution_area
@@ -33,22 +33,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Interested in translation?
+        ### Contribution Areas
 
-        You can help make InnerSource more accessible across Africa by translating **InnerSource Patterns** into African languages.
+        Depending on your selection above:
 
-        Explore the official patterns here:  
-        [InnerSource Patterns Repository](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+        - **Translation:** Help translate InnerSource Patterns into African languages  
+        - **Story sharing:** Share experiences or lessons from your work  
+        - **Blog/content:** Write about InnerSource topics relevant to Africa  
+        - **Speaking:** Present at a community call  
+        - **Community support:** Help with organizing and outreach  
 
-        Translation contributions can include:
-        - translating a pattern into a language of your choice
-        - improving an existing translation
-        - reviewing translations for clarity and accuracy
+        A maintainer will guide you based on your selected contribution area.
+
+        👉 You can explore InnerSource Patterns here:  
+        https://github.com/InnerSourceCommons/InnerSourcePatterns
 
   - type: input
     id: language
     attributes:
-      label: Language
+      label: Language (if applicable)
       description: If this is a translation contribution, which language would you like to work in?
       placeholder: e.g. Swahili, Yoruba, Hausa, Amharic, Zulu
     validations:
@@ -59,7 +62,7 @@ body:
     attributes:
       label: Topic, pattern, or contribution idea
       description: Tell us what you want to work on, present, or share.
-      placeholder: e.g. Translate Contributor Ladder, share an InnerSource adoption story, give a short community call talk
+      placeholder: e.g. Translate Contributor Ladder, share an InnerSource story, give a short talk
     validations:
       required: true
 
@@ -68,7 +71,7 @@ body:
     attributes:
       label: Additional details
       description: Share any extra context that would help us support you.
-      placeholder: Tell us more about your idea, interest, or contribution.
+      placeholder: Tell us more about your idea or contribution.
     validations:
       required: false
 
@@ -77,7 +80,7 @@ body:
     attributes:
       label: What support would help you get started?
       description: Let us know how the community can support you.
-      placeholder: e.g. help choosing a pattern, feedback on a story idea, presentation guidance, translation review
+      placeholder: e.g. help choosing a pattern, feedback on an idea, presentation guidance
     validations:
       required: false
 
@@ -88,4 +91,3 @@ body:
       options:
         - label: I understand that a maintainer will follow up with me about next steps.
           required: true
-    
