@@ -12,7 +12,7 @@ body:
       value: |
         Thank you for your interest in **InnerSource Commons Africa** 🎉
 
-        This form helps you tell us how you would like to contribute to the community.
+        This form helps you share how you would like to contribute to the community.
         Once submitted, a maintainer will follow up with you on next steps.
 
   - type: dropdown
@@ -33,54 +33,52 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Contribution Areas
+        ### Contribution guidance
 
-        Depending on your selection above:
+        You can use this form for different kinds of contributions.
 
-        - **Translation:** Help translate InnerSource Patterns into African languages  
-        - **Story sharing:** Share experiences or lessons from your work  
-        - **Blog/content:** Write about InnerSource topics relevant to Africa  
-        - **Speaking:** Present at a community call  
-        - **Community support:** Help with organizing and outreach  
+        Examples:
+        - **Translation:** mention the pattern or translation area you are interested in
+        - **Story sharing:** describe the experience, lesson, or case study you want to share
+        - **Blog or written content:** share your topic or draft idea
+        - **Speaking:** share the topic you would like to present during a community call
+        - **Community support:** describe how you would like to help with organizing, outreach, or coordination
 
-        A maintainer will guide you based on your selected contribution area.
-
-        👉 You can explore InnerSource Patterns here:  
+        👉 If you are interested in translation, you can explore the InnerSource Patterns here:  
         https://github.com/InnerSourceCommons/InnerSourcePatterns
 
   - type: input
-    id: language
+    id: contribution_title
     attributes:
-      label: Language (if applicable)
-      description: If this is a translation contribution, which language would you like to work in?
-      placeholder: e.g. Swahili, Yoruba, Hausa, Amharic, Zulu
-    validations:
-      required: false
-
-  - type: input
-    id: topic_or_pattern
-    attributes:
-      label: Topic, pattern, or contribution idea
-      description: Tell us what you want to work on, present, or share.
-      placeholder: e.g. Translate Contributor Ladder, share an InnerSource story, give a short talk
+      label: Contribution title or idea
+      description: Give a short title for what you would like to contribute.
+      placeholder: e.g. Translate Contributor Ladder, share an InnerSource adoption story, speak about lessons learned
     validations:
       required: true
 
   - type: textarea
-    id: details
+    id: contribution_details
     attributes:
-      label: Additional details
-      description: Share any extra context that would help us support you.
-      placeholder: Tell us more about your idea or contribution.
+      label: More details on where you want to support
+      description: Tell us more about the kind of contribution you want to make.
+      placeholder: |
+        Share any context that will help us support you.
+
+        For example:
+        - If this is translation, mention the pattern, language, or translation area you want to work on
+        - If this is story sharing, describe the story or experience you want to share
+        - If this is blog or written content, tell us the topic or audience
+        - If this is speaking, tell us the topic and format you have in mind
+        - If this is community support, describe how you would like to help
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: support_needed
     attributes:
       label: What support would help you get started?
       description: Let us know how the community can support you.
-      placeholder: e.g. help choosing a pattern, feedback on an idea, presentation guidance
+      placeholder: e.g. help choosing a pattern, feedback on an idea, presentation guidance, connecting with others
     validations:
       required: false
 
@@ -91,3 +89,4 @@ body:
       options:
         - label: I understand that a maintainer will follow up with me about next steps.
           required: true
+          
