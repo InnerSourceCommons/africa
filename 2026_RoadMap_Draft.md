@@ -32,6 +32,34 @@ All other activities depend on available volunteer capacity.
 
 ---
 
+## Community Contribution Pathways
+
+To support engagement beyond attending community calls, InnerSource Commons Africa creates space for members to actively contribute in simple and meaningful ways.
+
+### Translation Initiative
+Community members can contribute by helping translate InnerSource Patterns into African languages and adapting them for local contexts.
+
+- Contributions start small and expand based on interest and capacity
+- Initial focus will be on a limited number of patterns
+- Work is coordinated openly through the repository
+
+### Story Sharing
+Community members are encouraged to share InnerSource experiences from across Africa.
+
+This can include:
+- Short talks during community calls
+- Written summaries or posts
+- Lessons learned from applying InnerSource practices
+
+### General Participation
+- Join discussions during community calls
+- Suggest topics or improvements
+- Support outreach and community growth
+
+All contributions are voluntary and evolve based on community energy and availability.
+
+---
+
 ## Q1 2026 (January – March): Reset & Alignment
 
 ### Community Reset
@@ -58,11 +86,22 @@ All other activities depend on available volunteer capacity.
 ### Monthly Community Calls
 - Continue monthly calls with rotating topics or open discussion.
 - Invite guest speakers when coordination allows.
+- Create space for community members to share experiences and insights.
+
+### Translation Initiative
+- Launch a community-driven effort to translate InnerSource Patterns into African languages.
+- Start with a small number of patterns and expand gradually.
+- Invite volunteers through community calls and communication channels.
+- Share progress updates to maintain visibility and momentum.
+
+### Story Sharing
+- Introduce short segments during community calls for sharing InnerSource experiences from Africa.
+- Encourage members to contribute stories, lessons, or use cases.
+- Capture and share these contributions where possible.
 
 ### Content Sharing
 - Share notes, links, or recordings from calls when available.
 - Reuse existing InnerSource Commons materials where appropriate.
-- Encourage community members to share experiences and resources.
 
 ### Outreach
 - Engage with existing African tech communities where opportunities arise.
@@ -81,6 +120,7 @@ All other activities depend on available volunteer capacity.
 ### Continued Community Calls
 - Maintain the monthly call cadence.
 - Highlight community stories and lessons learned.
+- Share updates from the translation initiative where applicable.
 
 ### Mid-Year Check-In
 - Review what is working and what can be improved.
