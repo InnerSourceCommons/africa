@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 🌍 InnerSource Commons Africa (README)
+    url: https://github.com/InnerSourceCommons/africa
+    about: Learn about the community, roadmap, and how to get involved
+
+  - name: 📘 InnerSource Patterns Repository
+    url: https://github.com/InnerSourceCommons/InnerSourcePatterns
+    about: Explore patterns for translation, learning, and contribution
