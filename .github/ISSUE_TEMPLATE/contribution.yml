@@ -1,0 +1,91 @@
+name: Contribution Interest
+description: Tell us how you would like to contribute to InnerSource Commons Africa
+title: "[Contribution]: "
+labels:
+  - contribution
+assignees:
+  - reginankenchor
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in **InnerSource Commons Africa**.
+
+        This form helps you tell us how you would like to contribute to the community.
+        Once submitted, a maintainer will follow up with you on the next steps.
+
+  - type: dropdown
+    id: contribution_area
+    attributes:
+      label: What area would you like to contribute to?
+      description: Select the option that best matches how you want to participate.
+      options:
+        - Translation of InnerSource Patterns
+        - Story sharing
+        - Blog or written content
+        - Speaking at a community call
+        - Community support or volunteering
+        - Other
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Interested in translation?
+
+        You can help make InnerSource more accessible across Africa by translating **InnerSource Patterns** into African languages.
+
+        Explore the official patterns here:  
+        [InnerSource Patterns Repository](https://github.com/InnerSourceCommons/InnerSourcePatterns)
+
+        Translation contributions can include:
+        - translating a pattern into a language of your choice
+        - improving an existing translation
+        - reviewing translations for clarity and accuracy
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: If this is a translation contribution, which language would you like to work in?
+      placeholder: e.g. Swahili, Yoruba, Hausa, Amharic, Zulu
+    validations:
+      required: false
+
+  - type: input
+    id: topic_or_pattern
+    attributes:
+      label: Topic, pattern, or contribution idea
+      description: Tell us what you want to work on, present, or share.
+      placeholder: e.g. Translate Contributor Ladder, share an InnerSource adoption story, give a short community call talk
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Share any extra context that would help us support you.
+      placeholder: Tell us more about your idea, interest, or contribution.
+    validations:
+      required: false
+
+  - type: textarea
+    id: support_needed
+    attributes:
+      label: What support would help you get started?
+      description: Let us know how the community can support you.
+      placeholder: e.g. help choosing a pattern, feedback on a story idea, presentation guidance, translation review
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before submitting
+      options:
+        - label: I understand that a maintainer will follow up with me about next steps.
+          required: true
+    
